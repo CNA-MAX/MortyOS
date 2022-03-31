@@ -1,0 +1,11 @@
+奇了怪了，寄存器入\出栈顺序影响显存写入效果
+
+我将
+push ax
+push dx
+push bx
+改为
+push ax
+push bx
+push dx
+显示闪烁就消失了，待解答 
